@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto Serif');
+ body {
+    margin: 100px;
+    font-family: Helvetica, sans-serif;
+    font-family: 'Noto Serif', sans-serif;
+    width: 50%;
+}
+
+#info {
+    font-family: 'Lora', sans-serif;
+    background-color: #f7e9dc;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+#profile {
+    background-color: #def1eb;
+    float: center;
+    padding: 28px 35px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#page {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    border: solid 2px black;
+}
+
+img {
+    height: 300px;
+    width: 250;
+    margin: 0px;
+}
+
+#bottom {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: rgb(224, 207, 207);
+
+}
